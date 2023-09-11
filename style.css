@@ -1,0 +1,65 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s; /* Adiciona uma transição suave de cor ao passar o mouse */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #FF5733; /* Muda a cor do texto ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Adicione regras de estilo para tornar a página mais responsiva */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+}
